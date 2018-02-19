@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="co.events4student.events4students.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="100dp">
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:gravity="left"
+            android:inputType="textEmailAddress"
+            android:hint="Username"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:backgroundTint="#fff"
+            android:drawablePadding="75dp"
+            android:drawableLeft="@drawable/ic_person_black_24dp" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:ems="10"
+            android:inputType="textWebPassword"
+            android:hint="Password"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:backgroundTint="#fff"
+            android:drawablePadding="75dp"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/buttonstyleselector"
+            android:text="login"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editttextstyle"
+            android:text="sign up"
+            android:textColor="#fff"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

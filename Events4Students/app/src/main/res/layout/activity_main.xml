@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="co.events4student.events4students.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/btnList_of_Events"
+            android:layout_width="50dip"
+            android:layout_height="match_parent"
+            android:layout_weight="01"
+            android:text="Current Events"
+            android:textSize="30dp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btnMy_Events"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="My Events"
+            android:textSize="30dp"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:orientation="horizontal"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btnSent_Events"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Sent Events"
+                android:textSize="30dp"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/btnNotifications"
+                android:layout_width="50dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Notifications"
+                android:textSize="30dp"
+                android:textAllCaps="false"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnSettings"
+                android:layout_width="50dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Settings"
+                android:textSize="30dp"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/btnHelp"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Help"
+                android:textSize="30dp"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

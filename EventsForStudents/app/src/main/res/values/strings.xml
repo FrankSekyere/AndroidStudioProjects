@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">EventsForStudents</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="title_activity_events_lists">EventsLists</string>
+
+    <string name="user_name"></string>
+    <string name="user_password"></string>
+
+    <string name="login_preference">com.eventsforstudents.eventsforstudents_login_preference</string>
+    <string name="login_status_preference">com.eventsforstudents.eventsforstudents_login_status_preference</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_logout">Log Out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
